@@ -29,7 +29,7 @@
 --Step 3: **After uploading the file run command "New-AzRoleDefinition -InputFile $HOME/az104-02a-customRoleDefinition.json"
 
 
-**Note: Key point **az104-02a-customRoleDefinition.json** should be the file name of your JSON file**
+**Note: Key point **az104-02a-customRoleDefinition.json** should be the file name of your saved JSON file**
 
 
 --End Result - Check the assigned custom role under subscription tab **click on Access Control (IAM)** **Roles**
