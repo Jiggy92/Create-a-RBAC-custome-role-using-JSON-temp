@@ -1,4 +1,4 @@
-# Create_RBAC_custome-role_using_JSON-temp
+# Create_RBAC_custom-role_using_JSON-temp
 
 --Step 1:Create a JSON file with custom RBAC role:-
 
