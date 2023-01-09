@@ -1,22 +1,22 @@
 # Create_RBAC_custom-role_using_JSON-temp
 
---Step 1:Create a JSON file with custom RBAC role:-
+## Step 1:Create a JSON file with custom RBAC role:-
 
-{
-   "Name": "Support Request Contributor (Custom)",
-   "IsCustom": true,
-   "Description": "Allows to create support requests",
-   "Actions": [
+   {
+    "Name": "Support Request Contributor (Custom)",
+    "IsCustom": true,
+    "Description": "Allows to create support requests",
+    "Actions": [
        "Microsoft.Resources/subscriptions/resourceGroups/read",
        "Microsoft.Support/*"
-   ],
+    ],
    "NotActions": [
-   ],
+    ],
    "AssignableScopes": [
        "/providers/Microsoft.Management/managementGroups/az104-02-mg1",
        "/subscriptions/SUBSCRIPTION_ID"
-   ]
-}
+    ]
+   }
 
 **Note: AssignableScopes **Replace SUBSCRIPTION_ID with subscription id from your Azure Portal**
         Actions **You can also assign permission levels like read, owner, contributor**
